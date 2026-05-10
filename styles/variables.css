@@ -1,0 +1,19 @@
+:root {
+  /* 🎨 Brand / Accent */
+  --color-primary: #5051f9;
+
+  /* 🧱 Backgrounds */
+  --color-bg-main: #fbfaff;
+  --color-bg-secondary: #f3f4f8;
+  --color-bg-white: #ffffff;
+  --color-bg-alternative: #edecfe;
+
+  /* 🔤 Text */
+  --color-text-primary: #232360;
+  --color-text-accent: #5051f9;
+  --color-text-link: #1ea7ff;
+
+  --color-text-secondary: #768396;
+  --color-text-muted: #778399;
+  --color-text-disabled: #8c97a8;
+}
