@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task manager</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/variables.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <aside class="sidebar">
+        <a class="logo" href="#">
+          <img src="img/Logo.svg" alt="Back to homepage" />
+          OCTOM.
+        </a>
+        <nav>
+          <ul class="menu-list">
+            <li class="menu-item-list">
+              <a
+                class="menu-item-btn menu-item-btn-active"
+                aria-label="Open dashboard"
+              >
+                <img src="img/aside-menu/dashboard.svg" alt="dashboard icon" />
+              </a>
+            </li>
+            <li>
+              <a class="menu-item-btn" alt="Open timeline">
+                <img src="img/aside-menu/timeline.svg" alt="timeline icon" />
+              </a>
+            </li>
+            <li>
+              <a class="menu-item-btn" aria-label="Open tasks">
+                <img src="img/aside-menu/task.svg" alt="tasks icon" />
+              </a>
+            </li>
+            <li>
+              <a class="menu-item-btn" aria-label="Open settings">
+                <img src="img/aside-menu/settings.svg" alt="settings icon" />
+              </a>
+            </li>
+            <li>
+              <a class="menu-item-btn" aria-label="Open messages">
+                <img src="img/aside-menu/messages.svg" alt="messages icon" />
+              </a>
+            </li>
+            <li>
+              <a class="menu-item-btn" aria-label="Open files">
+                <img src="img/aside-menu/files.svg" alt="files icon" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <header class="header">
+        <div class="search-box">
+          <input
+            type="search"
+            placeholder="Search anything..."
+            id="search-input"
+          />
+
+          <img class="icon" src="img/search.svg" alt="Search button" />
+        </div>
+        <div class="account-settings">
+          <div class="account-notification">
+            <button><img src="img/call.svg" alt="Open notification" /></button>
+            <span>4</span>
+          </div>
+          <div class="account-settings-icon">
+            <div class="account-img-icon">
+              <img src="img/account-photo.svg" alt="Your account photo" />
+            </div>
+
+            <button>
+              <img
+                class="account-arrow-icon"
+                src="img/arrow-down.svg"
+                alt="Open account settings"
+              />
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>
